@@ -34,6 +34,8 @@ import Features from "../components/Features";
 import Retreat from "../components/Retreat2";
 import Price from "../components/Price";
 
+import Testimonial from "../components/Testimonial";
+
 import Register from "../components/Register";
 
 function classNames(...classes) {
@@ -64,9 +66,9 @@ export default function Index(props) {
         <Retreat />
 
         <Price onRegister={onRegister} />
-        <QuienSoy />
 
         <NewsLetter />
+        <Testimonial />
       </main>
       <Footer />
     </div>

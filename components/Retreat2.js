@@ -43,14 +43,14 @@ const communicationFeatures = [
     id: 2,
     name: "We choose love",
     description:
-      "We have experienced the ancestral masculine way of mental disipline, unquestionable religious loyalty and consiounsess bending sacred plants. But we live in really hard and confusing times, and rather choose the motherly love of nature as our inspiration. I don't know about you but I need a hug, not to be schooled.",
+      "We have experienced the ancestral masculine way of mental disipline, unquestionable religious loyalty and consiounsess bending sacred plants. But we live in really hard and confusing times, so we choose the motherly love of nature as our inspiration. I don't know about you but I need a hug, not to be schooled.",
     icon: MailIcon,
   },
 ];
 
 export default function Example() {
   return (
-    <div className="py-16 bg-gray-50 overflow-hidden lg:py-24">
+    <div className="pt-16 bg-gray-50 overflow-hidden lg:pt-24">
       <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
         <svg
           className="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4"
@@ -91,8 +91,9 @@ export default function Example() {
             Its about the moment
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-center text-xl text-gray-500">
-            The greatest gift nature gives is a moment to experience life as it
-            really is, before its distorted by our humanity.
+            The greatest gift from nature is a moment to experience life as it
+            really is, before its distorted by our beautiful, yet troubled,
+            humanity
           </p>
         </div>
 
@@ -207,11 +208,11 @@ export default function Example() {
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="lg:col-start-2">
               <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-                Lets go back, something we forgot
+                Lets go back, we forgot something
               </h3>
               <p className="mt-3 text-lg text-gray-500">
                 We heard from countless cultures, teachers and from mother
-                herself that nature is eager to welcome us back.
+                herself that nature is eager to welcome us back
               </p>
 
               <dl className="mt-10 space-y-10">

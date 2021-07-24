@@ -30,7 +30,7 @@ export default function Example() {
 
   return (
     <div className="bg-white">
-      <div className="max-w-5xl mx-auto py-24 px-4 sm:px-6 lg:py-32 lg:px-8 lg:flex lg:items-center">
+      <div className="max-w-5xl mx-auto pb-24 lg:pb-32 px-4 sm:px-6 lg:px-8 lg:flex lg:items-center">
         <div className="lg:w-0 lg:flex-1">
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
             Lets stay in touch
