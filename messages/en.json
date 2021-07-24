@@ -1,0 +1,33 @@
+{
+  "index":{
+"hero":{  
+    "title": "Connect with nature",
+    "titleColored": "& train your mind",
+    "tagLine_1": "An open minded retreat to discover or enhance your connection with Mother nature using only what's within you",
+    "tagLine_2": " No dogma, no gurus, no drugs, just peace and love.",
+    "tagLine_3": "With optional spaces to disconnect from your every day and give some maintenance to your brain.",
+    "cta":"Like"
+},
+"features":{
+  "title":"Look for the bare necessities",
+  "subtitle":"♬ ...the simple bare necessities, forget about your worries and your strife ♬",
+  "list":{
+  "beds":"Comfy Beds",
+  "food":"Healthy Local Food",
+  "bungalow":"Single, private, sparkling clean bungallow inmersed in the jungle with 1/2 restroom",
+  "mosquito":"Mosquito Proof",
+  "kitchen":"Shared Living Room & Kitchen",
+ 
+  "price": "Priced at cost",
+
+  "beds_d":"Good sleep here dependes on carefully selected matress, pillows and sheets for the jungle life. Changed often",
+  "food_d":"Great tasting, locally grown costarrican food, coked by locals woman, for all tastes and minds. ",
+  "bungalow_d":"Single, private, sparkling clean bungallow inmersed in the jungle with 1/2 restroom",
+  "mosquito_d":"Bungalows with air-thight floor to cealing screen. Otherwise you won't be able to sleep",
+  "kitchen_d":"A big ocean front living room, reading room, kitchen and dining with great fans",
+  "price_d": "N&M is a 'not for profit corporation'. We run a tight ship planned to break even EOY"
+  }
+}
+}
+}
+
