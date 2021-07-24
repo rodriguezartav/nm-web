@@ -13,7 +13,7 @@ const includedFeatures = [
 export default function Example(props) {
   const t = useTranslations("index.features");
 
-  const features = ["beds", "food", "bungalow", "mosquito", "kitchen", "price"];
+  const features = ["bungalow", "beds", "food", "mosquito", "kitchen", "price"];
 
   return (
     <div className="bg-green-600">

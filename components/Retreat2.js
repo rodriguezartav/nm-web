@@ -42,7 +42,7 @@ const communicationFeatures = [
     id: 2,
     name: "We choose love",
     description:
-      "We have experienced the ancestral masculine way of mental disipline, unquestionable religious loyalty and consiounsess bending sacred plants. But we live in really hard and confusing times, and rather choose the motherly love of nature as our inspiration.",
+      "We have experienced the ancestral masculine way of mental disipline, unquestionable religious loyalty and consiounsess bending sacred plants. But we live in really hard and confusing times, and rather choose the motherly love of nature as our inspiration. I don't know about you but I need a hug, not to be schooled.",
     icon: MailIcon,
   },
 ];
