@@ -42,7 +42,7 @@ export default function Example() {
         </div>
 
         {registerResultStatus == 1 && (
-          <p className="mt-3 text-2xl max-w-sm text-center text-white border-2 p-3 bg-indigo-500">
+          <p className="mt-3 text-2xl max-w-sm text-center text-white border-2 p-3 bg-green-500">
             Listo, le llegara un whatsapp todas las semanas
           </p>
         )}
@@ -78,13 +78,13 @@ export default function Example() {
                 type="text"
                 autoComplete="phone"
                 required
-                className="w-full px-5 py-3 border border-gray-300 shadow-sm placeholder-gray-400 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs rounded-md"
+                className="w-full px-5 py-3 border border-gray-300 shadow-sm placeholder-gray-400 focus:ring-1 focus:ring-green-500 focus:border-green-500 sm:max-w-xs rounded-md"
                 placeholder="Enter your phone"
               />
               <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
                 <button
                   onClick={onRegister}
-                  className="w-full flex items-center justify-center py-3 px-5 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                  className="w-full flex items-center justify-center py-3 px-5 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
                 >
                   Subscribe
                 </button>
