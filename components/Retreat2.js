@@ -6,6 +6,7 @@ import {
   MailIcon,
   ScaleIcon,
 } from "@heroicons/react/outline";
+import Image from "next/image";
 
 const transferFeatures = [
   {
@@ -158,7 +159,8 @@ export default function Example() {
                 fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)"
               />
             </svg>
-            <img
+            <Image
+              height="600"
               className="relative mx-auto"
               width={490}
               src="https://tailwindui.com/img/features/feature-example-1.png"
@@ -265,7 +267,8 @@ export default function Example() {
                   fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)"
                 />
               </svg>
-              <img
+              <Image
+                height="600"
                 className="relative mx-auto"
                 width={490}
                 src="https://tailwindui.com/img/features/feature-example-2.png"
