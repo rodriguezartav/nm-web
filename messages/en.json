@@ -4,9 +4,10 @@
     "title": "Connect with nature",
     "titleColored": "& train your mind",
     "tagLine_1": "An open minded retreat to discover or enhance your connection with Mother nature using only what's within you",
-    "tagLine_2": " No dogma, no gurus, no drugs, just peace and love.",
+    "tagLine_2": " No dogma, no gurus, no drugs, just nature and mind.",
     "tagLine_3": "With optional spaces to disconnect from your every day and give some maintenance to your brain.",
-    "cta":"Like"
+    "like":"Like",
+    "share":"Share"
 },
 "features":{
   "title":"Look for the bare necessities",

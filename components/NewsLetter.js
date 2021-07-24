@@ -36,7 +36,7 @@ export default function Example() {
             Let us share it with you
           </h2>
           <p className="mt-3 max-w-3xl text-lg text-gray-500">
-            We'll send you videos, images, news and schedules to keep you
+            We will send you videos, images, news and schedules to keep you
             connected to us.
           </p>
         </div>

@@ -109,7 +109,7 @@ export default function Process(props) {
             <span className="block lg:inline">Pricing & Schedule</span>
           </h1>
           <p className="mt-4 text-xl max-w-2xl mx-auto text-indigo-100">
-            Nature & Mind's retreats are not for profit, our financial goal is
+            Nature & Mind`s retreats are not for profit, our financial goal is
             to break even at the end of each year. We publish and share our
             accounting books.
           </p>

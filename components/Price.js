@@ -48,7 +48,7 @@ export default function Example(props) {
                 <div className="mt-8">
                   <div className="flex items-center">
                     <h4 className="flex-shrink-0 pr-4 bg-white text-sm tracking-wider font-semibold uppercase text-indigo-600">
-                      What's included
+                      What`s included
                     </h4>
                     <div className="flex-1 border-t-2 border-gray-200" />
                   </div>

@@ -8,7 +8,7 @@ export default function QuienSoy() {
           <div>
             <div className="mt-1 pb-20">
               <h2 className="text-3xl  font-light tracking-tight text-gray-600">
-                Roberto - N&M's Brother & Guide
+                Roberto - Founder
               </h2>
               <p className="mt-4 text-lg text-gray-500">
                 Roberto was born in a western catholic family and grew up on the

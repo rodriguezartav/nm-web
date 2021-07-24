@@ -18,7 +18,7 @@ export default function Example() {
               </div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                  It's about the moment
+                  It`s about the moment
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
                   The greatest gift is a moment to experience life as it really
