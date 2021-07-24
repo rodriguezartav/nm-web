@@ -31,7 +31,7 @@ import Process from "../components/Process";
 import NewsLetter from "../components/NewsLetter";
 import Footer from "../components/Footer";
 import Features from "../components/Features";
-import Retreat from "../components/Retreat";
+import Retreat from "../components/Retreat2";
 import Price from "../components/Price";
 
 import Register from "../components/Register";
@@ -62,9 +62,9 @@ export default function Index(props) {
         <Hero onRegister={onRegister} />
 
         <Retreat />
-        <QuienSoy />
 
         <Price onRegister={onRegister} />
+        <QuienSoy />
 
         <NewsLetter />
       </main>

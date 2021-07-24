@@ -33,11 +33,12 @@ export default function Example() {
       <div className="max-w-5xl mx-auto py-24 px-4 sm:px-6 lg:py-32 lg:px-8 lg:flex lg:items-center">
         <div className="lg:w-0 lg:flex-1">
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            Let us share it with you
+            Lets stay in touch
           </h2>
           <p className="mt-3 max-w-3xl text-lg text-gray-500">
             We will send you videos, images, news and schedules to keep you
-            connected to us.
+            connected to us. Maybe you will visit, maybe volunteer, maybe
+            sponsor... we will see.
           </p>
         </div>
 

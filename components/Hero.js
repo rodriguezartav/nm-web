@@ -11,7 +11,7 @@ export default function Hero(props) {
     <div className="relative">
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
         <div className="relative sm:overflow-hidden">
-          <div className="relative px-4 pb-16 sm:px-6 sm:pb-24 lg:pb-32 lg:px-8">
+          <div className="relative px-4 pb-8 sm:px-6 sm:pb-10 lg:pb-32 lg:px-8">
             <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
               <span className=" text-gray-800">
                 <span className="text-green-600  text-6xl"> {t("title")}</span>
