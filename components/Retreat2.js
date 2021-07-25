@@ -8,6 +8,19 @@ import {
 } from "@heroicons/react/outline";
 import Image from "next/image";
 
+const title = "It's about the moment";
+const subtitle =
+  " The greatest gift from nature is a moment to experience life as it really is, before its distorted by our beautiful, yet troubled, humanity";
+
+const title1 = "Let mother nature be our guide";
+
+const subtitle1 =
+  "For thousands of years masters from all corners of the world have created methods to help humans experience life without filters. We love & respect them, but trust nature to be our guide.";
+
+const title2 = "Lets go back, we forgot something";
+const subtitle2 =
+  "We heard from countless cultures, teachers and from mother herself that nature is eager to welcome us back";
+
 const transferFeatures = [
   {
     id: 1,
@@ -50,7 +63,7 @@ const communicationFeatures = [
 
 export default function Example() {
   return (
-    <div className="pt-16 bg-gray-50 overflow-hidden lg:pt-24">
+    <div className="pt-16 bg-gray-100 overflow-hidden lg:pt-24 mt-12">
       <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
         <svg
           className="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4"
@@ -87,26 +100,20 @@ export default function Example() {
         </svg>
 
         <div className="relative">
-          <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            Its about the moment
+          <h2 className="text-center uppercase text-3xl leading-8 font-extrabold tracking-tight text-gray-700 sm:text-4xl">
+            {title}
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-center text-xl text-gray-500">
-            The greatest gift from nature is a moment to experience life as it
-            really is, before its distorted by our beautiful, yet troubled,
-            humanity
+            {subtitle}
           </p>
         </div>
 
         <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div className="relative">
-            <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-              Let mother nature be our guide
+            <h3 className="text-2xl font-extrabold text-green-600 tracking-tight sm:text-3xl">
+              {title1}
             </h3>
-            <p className="mt-3 text-lg text-gray-500">
-              For thousands of years masters from all corners of the world have
-              created methods to help humans experience life without filters. We
-              love & respect them, but trust nature to be our guide.
-            </p>
+            <p className="mt-3 text-lg text-gray-500">{subtitle1}</p>
 
             <dl className="mt-10 space-y-10">
               {transferFeatures.map((item) => (
@@ -149,7 +156,7 @@ export default function Example() {
                     y={0}
                     width={4}
                     height={4}
-                    className="text-gray-200"
+                    className="text-green-500"
                     fill="currentColor"
                   />
                 </pattern>
@@ -208,12 +215,9 @@ export default function Example() {
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="lg:col-start-2">
               <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-                Lets go back, we forgot something
+                {title2}
               </h3>
-              <p className="mt-3 text-lg text-gray-500">
-                We heard from countless cultures, teachers and from mother
-                herself that nature is eager to welcome us back
-              </p>
+              <p className="mt-3 text-lg text-gray-500">{subtitle2}</p>
 
               <dl className="mt-10 space-y-10">
                 {communicationFeatures.map((item) => (

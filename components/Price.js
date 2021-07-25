@@ -15,18 +15,31 @@ export default function Example(props) {
 
   const features = ["bungalow", "beds", "food", "mosquito", "kitchen", "price"];
 
+  const title = "Pricing & Schedule";
+  const subtitle =
+    "Nature & Mind retreats are profitless, our financial goal is to break even at the end of each year while providing a fair price for everyone";
+
+  const title1 = "Traditional 5 Day Retreat";
+  const subtitle1 =
+    "Retreats have a 10 person capacity and are held constalty year round. Visits during both dry and rainy season are highly recommended, the jungle is always magical.";
+
+  const included = "What`s included";
+  const price = "Cost & Price";
+
+  const getSchedule = "Get the schedule";
+  const donations = "Donations are welcomed";
+  const sample = "Get a free sample";
+
   return (
     <div className="bg-green-600">
       <div className="pt-12 sm:pt-16 lg:pt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl text-white font-extrabold  sm:text-4xl lg:text-5xl">
-              Pricing & Schedule
+              {title}
             </h2>
             <p className="mt-4 text-xl text-green-100 max-w-2xl mx-auto">
-              Nature & Mind retreats are profitless, our financial goal is to
-              break even at the end of each year while providing a fair price
-              for everyone
+              {subtitle}
             </p>
           </div>
         </div>
@@ -38,17 +51,13 @@ export default function Example(props) {
             <div className="max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none lg:flex">
               <div className="flex-1 bg-white px-6 py-8 lg:p-12">
                 <h3 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">
-                  Traditional 5 Day Retreat
+                  {title1}
                 </h3>
-                <p className="mt-6 text-base text-gray-500">
-                  Retreats have a 10 person capacity and are held constalty year
-                  round. Visits during both dry and rainy season are highly
-                  recommended.
-                </p>
+                <p className="mt-6 text-base text-gray-500">{subtitle1}</p>
                 <div className="mt-8">
                   <div className="flex items-center">
                     <h4 className="flex-shrink-0 pr-4 bg-white text-sm tracking-wider font-semibold uppercase text-green-600">
-                      What`s included
+                      {included}
                     </h4>
                     <div className="flex-1 border-t-2 border-gray-200" />
                   </div>
@@ -75,7 +84,7 @@ export default function Example(props) {
               </div>
               <div className="py-8 px-6 text-center bg-gray-50 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
                 <p className="text-lg leading-6 font-medium text-gray-900">
-                  Cost & Price
+                  {price}
                 </p>
                 <div className="mt-4 flex items-center justify-center text-5xl font-extrabold text-gray-900">
                   <span>$240</span>
@@ -85,7 +94,7 @@ export default function Example(props) {
                 </div>
                 <p className="mt-4 text-sm">
                   <a href="#" className="font-medium text-gray-500 underline">
-                    Donations are welcomed
+                    {donations}
                   </a>
                 </p>
                 <div className="mt-6">
@@ -94,13 +103,13 @@ export default function Example(props) {
                       href="#"
                       className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900"
                     >
-                      Get the schedule
+                      {getSchedule}
                     </a>
                   </div>
                 </div>
                 <div className="mt-4 text-sm">
                   <a href="#" className="font-medium text-gray-900">
-                    Get a free sample{" "}
+                    {sample}
                     <span className="font-normal text-gray-500">(20MB)</span>
                   </a>
                 </div>

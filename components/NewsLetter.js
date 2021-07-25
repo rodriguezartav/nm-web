@@ -33,7 +33,7 @@ export default function Example() {
       <div className="max-w-5xl mx-auto pb-24 lg:pb-32 px-4 sm:px-6 lg:px-8 lg:flex lg:items-center">
         <div className="lg:w-0 lg:flex-1">
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            Lets stay in touch
+            Volunteer, Service, Sponsor
           </h2>
           <p className="mt-3 max-w-3xl text-lg text-gray-500">
             We will send you videos, images, news and schedules to keep you
