@@ -49,8 +49,12 @@ export default function Example() {
                     </span>
                   </p>
 
-                  {lines.split("\n").map((item) => {
-                    return <p className=" text-xl   mt-6 text-white">{item}</p>;
+                  {lines.split("\n").map((item, index) => {
+                    return (
+                      <p key={index} className=" text-xl   mt-6 text-white">
+                        {item}
+                      </p>
+                    );
                   })}
 
                   <footer className="mt-6">
