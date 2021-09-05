@@ -32,15 +32,13 @@ import NewsLetter from "../components/NewsLetter";
 import Footer from "../components/Footer";
 import Features from "../components/Features";
 import SignIn from "../components/SignIn";
-import Price from "../components/Price";
+import Location from "../components/Location";
 
 import Launch from "../components/Launch";
 
 import Testimonial from "../components/Testimonial";
 
 import Register from "../components/Register";
-
-import Link from "next/link";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -64,7 +62,7 @@ export default function Index(props) {
       </Head>
 
       <main>
-        <SignIn />
+        <Location />
       </main>
       <Footer />
     </div>

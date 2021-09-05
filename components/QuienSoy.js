@@ -10,32 +10,33 @@ export default function QuienSoy() {
               <h2 className="text-3xl  font-light tracking-tight text-gray-600">
                 Roberto - Founder
               </h2>
-              <p className="mt-4 text-lg text-gray-500">
+              <p className="mt-4 text-md text-gray-500">
                 Roberto was born in a western catholic family and grew up on the
                 rural mountains near the city. Half way throw his life he moved
                 to the remote off-grid jungles of Corcovado on the south of
                 Costa Rica.
               </p>
 
-              <p className="mt-4 text-lg text-gray-500">
+              <p className="mt-4 text-md text-gray-500">
                 It’s always been hard to label him using linear titles like a
                 profession or a career. He’s a backpacker, and has lived as a
-                street arts performer, a Silicon Valley Engineer, a conference
-                speaker for 1000+ audiences, and a surfing beach bum.
+                street poet, mayored in aeroespace engineering and worked as a
+                Silicon Valley Engineer, a native flute player, a conference
+                speaker for 1000+ audiences that has given up all material
+                posessions and moved to a camping tent on the beach - twice.
               </p>
 
-              <p className="mt-4 text-lg text-gray-500">
-                There’s a moment where tragic death came to his life while in
-                India and with it the gift of proof. Since then he’s been as
-                focused as any older student can be on the exploration of what’s
-                beyond the mind following the inner arts present in Christian,
-                Hindu, Buddhist, Shaolin and Shamanic philosophies.
+              <p className="mt-4 text-md text-gray-500">
+                At age 38 he experieced a seriuos mental health crisis from a
+                condition he carried since childhood, he healed himself using a
+                combination of technics he been training on including Hindu,
+                Buddhist, Shaolin, Shamanic and Traditional Psyquiatry with
+                medications.
               </p>
 
-              <p className="mt-4 text-lg text-gray-500">
-                An aprentiz to (Shaman) Taita Lucho Flores, student of Sifu Rama
-                from the Blue Mountain and a training member of the
-                self-realization fellowship of Paramhansa Yogananda.
+              <p className="mt-4 text-md text-gray-500">
+                This lead him to a full time dedication to the interior arts and
+                the development of the Nature and Mind program.
               </p>
             </div>
           </div>

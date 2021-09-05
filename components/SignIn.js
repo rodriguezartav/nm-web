@@ -7,10 +7,13 @@ import {
   ScaleIcon,
 } from "@heroicons/react/outline";
 import Image from "next/image";
-
+import Link from "next/link";
 const title = "This is Nature & Mind";
 const subtitle =
   " The greatest gift from nature is a moment to experience life as it really is, before its distorted by our beautiful, yet troubled, humanity";
+
+const subtitle11 =
+  "Bungalows located on a pristine beachfront with primary forest on the last unspoiled region of Costa Rica";
 
 const title1 = "Let mother nature be our guide";
 
@@ -23,11 +26,11 @@ const subtitle2 =
 
 const transferFeatures = [
   {
-    id: 2,
-    name: "Bring you inner child",
+    id: 1,
+    name: "Natural Meditations & Silence",
     description:
-      "Walk among trees glowing with life, play in the ocean, walk on the beach, Wash your mud bath on the creek. We'll have you sweating, muddy, salty and happy.",
-    icon: ScaleIcon,
+      "After a period of silence... we provide ideas to use the jungle, creeks, ocean and bonefires to learn to medidate effortlessly - also known as forest bathing.",
+    icon: GlobeAltIcon,
   },
   {
     id: 3,
@@ -36,12 +39,13 @@ const transferFeatures = [
       "Our own version of the Scandinavian sauna mixed with the native american Temazcal helps detoxify the body while getting you closer to the earth and getting rid of that anxiety for confort that dwarfs peace & connection.",
     icon: LightningBoltIcon,
   },
+
   {
-    id: 1,
-    name: "Natural Meditations & Silence",
+    id: 2,
+    name: "Bring you inner child",
     description:
-      "After a period of silence... we provide ideas to use the jungle, creeks, ocean and bonefires to rest your mind naturaly. You’ll be surrounded 24/7 with the most abundant density off life found anywhere on earth, with time you'll be able to feel the connection.",
-    icon: GlobeAltIcon,
+      "Walk among giant trees glowing with life, play in the ocean, walk on the beach, take mud bath on the creek. We'll have you sweating, muddy, salty and happy.",
+    icon: ScaleIcon,
   },
 ];
 const communicationFeatures = [
@@ -73,6 +77,7 @@ export default function Example() {
           <h2 className="mt-3 text-center uppercase text-2xl leading-8 font-extrabold tracking-tight text-gray-700 sm:text-4xl">
             {title}
           </h2>
+          <p className="text-gray-500 text-center">{subtitle11}</p>
           <div className="relative">
             <dl className="mt-10 space-y-10">
               {transferFeatures.map((item) => (
@@ -110,15 +115,12 @@ export default function Example() {
 
         <Name />
 
-        <p className="m-5 mt-1 max-w-xl text-white text-center">
-          There are as many paths that lead to Nature & Mind as people
-          interested in conneting. Welcome to our home.
-        </p>
-
         <div className=" space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-1 sm:gap-5">
-          <div className="flex mx-10 items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm cursor-pointer text-green-800 bg-white  hover:bg-green-500 sm:px-8">
-            Step In
-          </div>
+          <Link href="/price">
+            <div className="flex mx-10 items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm cursor-pointer text-green-800 bg-white  hover:bg-green-500 sm:px-8">
+              Continue
+            </div>
+          </Link>
         </div>
         <p className="max-w-xl text-white text-center">
           <small>Our privacy policy is honorable</small>

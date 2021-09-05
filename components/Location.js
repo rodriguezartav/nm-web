@@ -2,7 +2,6 @@
 import { CheckCircleIcon } from "@heroicons/react/solid";
 import { useTranslations } from "next-intl";
 import { useRouter } from "next/router";
-import Link from "next/link";
 import PageHeader from "./PageHeader";
 
 const includedFeatures = [
@@ -36,7 +35,6 @@ export default function Example(props) {
   return (
     <div className="bg-green-600">
       <PageHeader title={title} />
-
       <div className="mt-8 bg-white pb-16 sm:mt-12 sm:pb-20 lg:pb-28">
         <div className="relative">
           <div className="absolute inset-0 h-1/2 bg-green-600" />

@@ -64,6 +64,8 @@ export default function Index(props) {
       <main>
         <Header />
         <Hero onRegister={onRegister} />
+        <Retreat />
+        <Launch />
       </main>
       <Footer />
     </div>

@@ -40,8 +40,6 @@ import Testimonial from "../components/Testimonial";
 
 import Register from "../components/Register";
 
-import Link from "next/link";
-
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
@@ -64,7 +62,7 @@ export default function Index(props) {
       </Head>
 
       <main>
-        <SignIn />
+        <Price />
       </main>
       <Footer />
     </div>
