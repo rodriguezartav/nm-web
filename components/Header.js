@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/solid";
+import { useTranslations } from "next-intl";
 
 /* This example requires Tailwind CSS v2.0+ */
 const navigation = {
@@ -30,6 +31,7 @@ const navigation = {
 };
 
 export default function Example() {
+  const t = useTranslations("index.header");
   return (
     <header className="bg-white mb-10 mt-10">
       <div className=" max-w-7xl mx-auto pt-12 px-4 overflow-hidden sm:px-6 lg:px-8">
@@ -39,7 +41,7 @@ export default function Example() {
         >
           <div className="px-5 py-2 flex">
             <a className="leading-10 text-green-600 pr-4 text-3xl  hover:text-gray-900">
-              N&M
+              {t("title")}
             </a>
 
             <div
