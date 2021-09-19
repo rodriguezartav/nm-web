@@ -40,7 +40,10 @@ export default function Example() {
           aria-label="Footer"
         >
           <div className="px-5 py-2 flex">
-            <a className="leading-10 text-green-600 pr-4 text-3xl  hover:text-gray-900">
+            <a
+              href="/"
+              className="leading-10 text-green-600 pr-4 text-3xl  hover:text-gray-900"
+            >
               {t("title")}
             </a>
 
