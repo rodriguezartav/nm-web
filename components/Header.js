@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/solid";
 import { useTranslations } from "next-intl";
+import { useRouter } from "next/router";
 
 /* This example requires Tailwind CSS v2.0+ */
 const navigation = {
@@ -31,6 +32,8 @@ const navigation = {
 };
 
 export default function Example() {
+  const router = useRouter();
+
   const t = useTranslations("index.header");
   return (
     <header className="bg-white mb-10 mt-10">
@@ -41,8 +44,8 @@ export default function Example() {
         >
           <div className="px-5 py-2 flex">
             <a
-              href="/"
-              className="leading-10 text-green-600 pr-4 text-3xl  hover:text-gray-900"
+              onClick={() => router.push("/")}
+              className="leading-10 text-green-600 pr-4 text-3xl cursor-pointer hover:text-gray-900"
             >
               {t("title")}
             </a>
