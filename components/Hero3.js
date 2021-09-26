@@ -94,7 +94,7 @@ export default function Hero(props) {
               </p>
 
               <p className=" mb-1 text-lg text-justify text-gray-500">
-                Here or there, we hope {"nature's"} gift, wrapped in a moment in
+                Here or there, I hope {"nature's"} gift, wrapped in a moment in
                 life, before {"it's"} distorted by our beautiful, yet troubled,
                 humanity - reaches those seaking hearts.
               </p>
