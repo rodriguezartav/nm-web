@@ -12,13 +12,12 @@ const title = "This is Nature & Mind";
 const subtitle =
   " The greatest gift from nature is a moment to experience life as it really is, before its distorted by our beautiful, yet troubled, humanity";
 
-const subtitle11 =
-  "Bungalows located on a pristine beachfront with primary forest on the last unspoiled region of Costa Rica";
+const subtitle11 = "no dogma, no gurus, no drugs, let nature be your guide";
 
 const title1 = "Let mother nature be our guide";
 
 const subtitle1 =
-  "For thousands of years masters from all corners of the world have created methods to help humans experience life without filters.";
+  "An open minded retreat to enhance your connection with nature with optional activities to disconnect from your every day and give your mind a rest.";
 
 const title2 = "Lets go back, we forgot something";
 const subtitle2 =
@@ -27,9 +26,9 @@ const subtitle2 =
 const transferFeatures = [
   {
     id: 1,
-    name: "Natural Meditations & Silence",
+    name: "Natural Meditations & Relaxation",
     description:
-      "After a period of silence... we provide ideas to use the jungle, creeks, ocean and bonefires to learn to medidate effortlessly - also known as forest bathing.",
+      "Our included activities use the jungle, creeks, ocean, bonefires and the present natural moment to achieve relaxation and optionally practice meditation",
     icon: GlobeAltIcon,
   },
   {
@@ -67,7 +66,7 @@ const communicationFeatures = [
 
 export default function Example() {
   return (
-    <div className="pt-6 bg-green-500 overflow-hidden lg:pt-24 pb-10 ">
+    <div className=" bg-green-500 overflow-hidden  pb-10 ">
       <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
         <p className="mt-3 text-lg text-justify text-gray-50">{subtitle1}</p>
       </div>
@@ -77,7 +76,7 @@ export default function Example() {
           <h2 className="mt-3 text-center uppercase text-2xl leading-8 font-extrabold tracking-tight text-gray-700 sm:text-4xl">
             {title}
           </h2>
-          <p className="text-gray-500 text-center">{subtitle11}</p>
+          <p className="text-gray-500 text-center mx-14">{subtitle11}</p>
           <div className="relative">
             <dl className="mt-10 space-y-10">
               {transferFeatures.map((item) => (

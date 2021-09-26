@@ -37,7 +37,7 @@ export default function Example() {
   const t = useTranslations("index.header");
   return (
     <header className="bg-white mb-10 mt-10">
-      <div className=" max-w-7xl mx-auto pt-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+      <div className=" max-w-7xl mx-auto pt-1 px-4 overflow-hidden sm:px-6 lg:px-8">
         <nav
           className="-mx-5 -my-2 flex flex-wrap justify-center"
           aria-label="Footer"
@@ -61,7 +61,7 @@ export default function Example() {
         </nav>
 
         <div
-          className="border-1 w-24 mt-12 mb-4 border mx-auto bg-green-600"
+          className="border-1 w-24 mt-1 mb-4 border mx-auto bg-green-600"
           style={{ height: 3 }}
         ></div>
       </div>

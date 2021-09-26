@@ -23,7 +23,7 @@ import {
 } from "@heroicons/react/outline";
 import { ChevronDownIcon } from "@heroicons/react/solid";
 import Header from "../components/Header";
-import Hero from "../components/Hero";
+import Hero from "../components/Hero3";
 import QuienSoy from "../components/QuienSoy";
 import About from "../components/About";
 
@@ -61,7 +61,7 @@ export default function Index(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Register open={open} setOpen={setOpen} />
-      <main>
+      <main className="">
         <Header />
         <Hero onRegister={onRegister} />
       </main>
