@@ -88,15 +88,14 @@ export default function Hero(props) {
             <div className="relative mt-10 p-7 mb-5 bg-gray-100  max-w-xl mx-auto lg:max-w-2xl">
               <p className="text-lg text-justify text-gray-500 mb-10">
                 For some, {"there's"} a stage in life when the search for long
-                lasting peace takes precendence over all kinds of drugs,
+                lasting peace takes precendence over all kinds of substances,
                 desires, ambitions, experiences and even mental concepts of
                 spirituality.
               </p>
 
               <p className=" mb-1 text-lg text-justify text-gray-500">
-                Here or there, I hope {"nature's"} gift, wrapped in a moment in
-                life, before {"it's"} distorted by our beautiful, yet troubled,
-                humanity - reaches those seaking hearts.
+                May this space and everything on it be of service to those
+                beings.
               </p>
             </div>
 
@@ -126,7 +125,7 @@ export default function Hero(props) {
 
           <div className=" max-w-sm mx-auto pb-10 sm:max-w-xl sm:justify-center mt-10 border-2  border-green-500">
             <div className="bg-green-500 p-4 text-white text-lg">
-              Want to learn more about N&M?
+              Nature and Mind is donation based, no fixed prices.
             </div>
 
             <iframe
