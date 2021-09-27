@@ -175,7 +175,7 @@ const transferFeatures = [
   },
   {
     id: 1,
-    name: "Effortless Relaxation & Meditations",
+    name: "Effortless Relaxation",
     description:
       "Activities are included and use the unique and present moment of nature with her sunlight, trees, wildlife, rain, wind, creeks, ocean and bonefires to achieve relaxation and optionally practice effortless meditation in our beach or jungle temples",
     icon: GlobeAltIcon,
@@ -184,7 +184,7 @@ const transferFeatures = [
     id: 3,
     name: "Temazcal Detox",
     description:
-      "Our own version of the Scandinavian sauna mixed with the native american Temazcal helps detoxify the body while getting you closer to the earth and getting rid of that anxiety for confort that dwarfs peace & connection.",
+      "Our own version of the native american Temazcal mixed with the Scandinavian sauna the helps detoxify the body by sweating while getting you closer to earth; helps loosen up stress, anxieties and emotions.",
     icon: LightningBoltIcon,
   },
 
