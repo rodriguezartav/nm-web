@@ -48,8 +48,8 @@ export default function Hero(props) {
             <Image
               className=" sm:absolute sm:-top-96 h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
               src="/back.jpeg"
-              width="2000"
-              height="1000"
+              width="1152"
+              height="576"
               alt="Picture of the author"
             />
           </div>
