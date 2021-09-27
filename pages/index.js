@@ -24,19 +24,7 @@ import {
 import { ChevronDownIcon } from "@heroicons/react/solid";
 import Header from "../components/Header";
 import Hero from "../components/Hero3";
-import QuienSoy from "../components/QuienSoy";
-import About from "../components/About";
-
-import Process from "../components/Process";
-import NewsLetter from "../components/NewsLetter";
 import Footer from "../components/Footer";
-import Features from "../components/Features";
-import Retreat from "../components/Retreat2";
-import Price from "../components/Price";
-
-import Launch from "../components/Launch";
-
-import Testimonial from "../components/Testimonial";
 
 import Register from "../components/Register";
 
