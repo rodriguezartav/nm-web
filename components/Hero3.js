@@ -31,11 +31,11 @@ export default function Hero(props) {
             <h1 className="text-center mb-5 text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
               <span className=" text-gray-800">
                 <span className="text-green-600  text-4xl sm:text-6xl">
-                  {t("title")}
+                  Connect with nature
                 </span>
                 <br />
                 <span className="text-green-600 text-4xl  sm:text-6xl mb-10">
-                  {t("titleColored")}
+                  & rest your mind
                 </span>
               </span>
             </h1>

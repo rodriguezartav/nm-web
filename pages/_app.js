@@ -6,16 +6,14 @@ import "tailwindcss/tailwind.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <NextIntlProvider messages={pageProps.messages}>
-      <SWRConfig
-        value={{
-          fetcher: (resource, init) =>
-            fetch(resource, init).then((res) => res.json()),
-        }}
-      >
-        <Component {...pageProps} />
-      </SWRConfig>
-    </NextIntlProvider>
+    <SWRConfig
+      value={{
+        fetcher: (resource, init) =>
+          fetch(resource, init).then((res) => res.json()),
+      }}
+    >
+      <Component {...pageProps} />
+    </SWRConfig>
   );
 }
 
