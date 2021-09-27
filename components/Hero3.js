@@ -18,7 +18,7 @@ import {
 export default function Hero(props) {
   const router = useRouter();
 
-  const t = useTranslations("index.hero");
+  //  const t = useTranslations("index.hero");
   const handleClick = (e) => {
     e.preventDefault();
     router.push("/step1");
