@@ -170,7 +170,7 @@ const transferFeatures = [
     id: 2,
     name: "Bring you inner child",
     description:
-      "Play/surf/fish in the ocean, walk or exercise with only you, waves and sand, take mud baths on the creek or simply hit the hammock and smile",
+      "Play, float or surf in the ocean, walk on an empty beach, take mud baths on the creek or simply hit the hammock and smile",
     icon: ScaleIcon,
   },
   {
