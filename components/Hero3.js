@@ -125,7 +125,7 @@ export default function Hero(props) {
 
           <div className=" max-w-sm mx-auto pb-10 sm:max-w-xl sm:justify-center mt-10 border-2  border-green-500">
             <div className="bg-green-500 p-4 text-white text-lg">
-              Nature and Mind is donation based, no fixed prices.
+              The Nature and Mind business layer is donation based
             </div>
 
             <iframe
@@ -161,9 +161,9 @@ const subtitle2 =
 const transferFeatures = [
   {
     id: 2,
-    name: "Spend all the time in the jungle paradise",
+    name: "Spend all the time in the jungle",
     description:
-      "Walk among giant trees glowing with life, be surprised by the most beautiful birds and butterflies, see the monkeys fly on the most biodiverse place on earth",
+      "Sit among giant trees glowing with life while you see the monkeys fly, be surprised by the most beautiful birds and butterflies, be aware to the most biodiverse place on earth",
     icon: ScaleIcon,
   },
   {
