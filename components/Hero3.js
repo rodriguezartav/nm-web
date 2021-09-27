@@ -177,7 +177,7 @@ const transferFeatures = [
     id: 1,
     name: "Effortless Relaxation & Meditations",
     description:
-      "Our included activities use the unique and present moment of nature with her sunlight, trees, wildlife, rain, wind, creeks, ocean and bonefires to achieve relaxation and optionally practice effortless meditation in our beach or jungle temples",
+      "Activities are included and use the unique and present moment of nature with her sunlight, trees, wildlife, rain, wind, creeks, ocean and bonefires to achieve relaxation and optionally practice effortless meditation in our beach or jungle temples",
     icon: GlobeAltIcon,
   },
   {
