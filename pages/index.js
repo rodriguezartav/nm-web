@@ -42,7 +42,7 @@ export default function Index(props) {
   return (
     <div className="bg-white">
       <Head>
-        <title>Nature & Mind</title>
+        <title>Nature and Mind</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
         <meta
