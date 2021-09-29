@@ -4,32 +4,30 @@
       "title": "Naturaleza y Mente"
     },
 "hero":{  
-    "title": "Conecte con la naturaleza",
-    "titleColored": "y relaje su mente",
-    "tagLine_1": "Un retiro abierto para fortalecer su conexión con la madre naturaleza usando lo que ya tienes adentro",
-    "tagLine_2": " sin dogma, sin gurus, sin drogras, solo naturaleza y mente",
-    "button":"Abrimos Pronto"
-},
-"features":{
-  "title":"Look for the bare necessities",
-  "subtitle":"♬ ...the simple bare necessities, forget about your worries and your strife ♬",
-  "list":{
-  "beds":"Hotel quality beds, sheets and cleaning service",
-  "food":"Regionally grown costarrican food with a vegetarian option, cooked by local woman. Coffee, Te and Fruit station",
-  "bungalow":"Jungle Bungalow with floor to cealing air-tight mosquito screens and a half bathroom.",
-  "mosquito":"Lounge on the pristine beach with lots of included toys for surfing, fishing, playing",
-  "kitchen":"A big ocean front living room, reading room, kitchen with ice maker and dining with great fans",
- 
-  "price": "N&M is a 'not for profit corporation'. We run a tight ship planned to break even EOY",
 
-  "beds_d":"Good sleep here dependes on carefully selected matress, pillows and sheets for the jungle life. Changed often",
-  "food_d":"Great tasting, locally grown costarrican food, coked by locals woman, for all tastes and minds. ",
-  "bungalow_d":"Single, private, sparkling clean bungallow inmersed in the jungle with 1/2 restroom",
-  "mosquito_d":"Bungalows with air-thight floor to cealing screen. Otherwise you won't be able to sleep",
-  "kitchen_d":"A big ocean front living room, reading room, kitchen and dining with great fans",
-  "price_d": "N&M is a 'not for profit corporation'. We run a tight ship planned to break even EOY"
-  }
+    "title": "Conecte con la naturaleza",
+    "title2": "y relaje su mente",
+    "nmtitle": "Esto es Naturaleza y Mente",
+    "tagLine_1": "Bungalows en el bosque primario de nuestra propiedad frente al mar en la última region salvaje de Costa Rica",
+    "tagLine_2": "Un centro de mente abierta para disfrutar la conexión con la naturaleza atravez de actividades que te desconectan del día a día y te ayudan a descansar la mente",
+    "tagLine_3": "sin dogma, sin gurus, sin drogas, solo naturaleza",
+    "button":"Start",
+    "features":{
+      "title1":"Paso todo el tiempo en el bosque",
+      "text1":"Vea los monos volar entre los arbol gigantes llenos de vida. Sea sorprendido por aves, mariposas y cientos de seres. Sienta lo que es estar en el lugar con mas vida de todo el planeta",
+      "title2":"Traiga su niño interior",
+      "text2": "Juegue, flote y deslicese en las olas, camine en una playa desierta, juegue con barro en la quebrada o simplemente disfrute de la hamaca con una sonrisa",
+      "title3":"Relajese sin esfuerzo",
+      "text3":"Todas las actividades estan incluidas y usan el aquī y el ahora de la naturaleza con su luz, arboles, viento, vida silvestre, lluvia, quebradas, el mar, fogatas, las estrellas para relajarse como nunca y opcionalmente practicar meditación sin esfuerzo en nuestros templos en el bosque y en la playa.",
+      "title4":"Temazcal Detox",
+      "text4": "Nuestra version del sauna escandinavo mezclado con el de los nativos americanos ayuda a detoxificar el cuerpo y conectarnos con la tierra para liberar stress, ansiedad y emociones guardadas.",
+      "title5":"Bungalows en el bosque y buena comida",
+      "text5":"Cuartos individuales con baño rodeados de arboles con camas y sabanas de muy buena calidad. Tres comidas saludables, jugos de frutas, cafe y te en el comedor de la playa."
+    },
+  "info1":"Para muchos, llega un momento en la vida donde la busqueda de la paz duradera toma prioridad sobre el consumo de substancias, ambiciones, experiencias, deseos e incluso los conceptos mentales de la espiritualidad.",
+  "info2":"Las visitas a N&M son individuales y pueden durar 3, 5 y 7 días. Al final paga mediante una donación segun lo que cada quien pueda y su corazón le diga"
 }
+
 }
 }
 

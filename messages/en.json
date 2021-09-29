@@ -5,32 +5,28 @@
     },
 "hero":{  
     "title": "Connect with nature",
-    "titleColored": "& rest your mind",
-    "tagLine_1": "A open minded retreat to enhance your connection with nature using what's already within you",
-    "tagLine_2": " no dogma, no gurus, no drugs, only nature",
-    "tagLine_3": "With optional spaces to disconnect from your every day and give some maintenance to your brain.",
-    "button":"Start"
-},
-"features":{
-  "title":"Look for the bare necessities",
-  "subtitle":"♬ ...the simple bare necessities, forget about your worries and your strife ♬",
-  "list":{
-  "beds":"Hotel quality beds, sheets and cleaning service",
-  "food":"Regionally grown costarrican food with a vegetarian option, cooked by local woman. Coffee, Te and Fruit station",
-  "bungalow":"Jungle Bungalow with fan, floor to cealing air-tight mosquito screens and half bathroom.",
-  "mosquito":"Lounge on the pristine beach with lots of included toys for surfing, fishing, playing",
-  "kitchen":"A big ocean front living room, reading room, kitchen with ice maker and dining with great fans",
- 
-  "price": "N&M is a 'not for profit corporation'. We run a tight ship planned to break even EOY",
-
-  "beds_d":"Good sleep here dependes on carefully selected matress, pillows and sheets for the jungle life. Changed often",
-  "food_d":"Great tasting, locally grown costarrican food, coked by locals woman, for all tastes and minds. ",
-  "bungalow_d":"Single, private, sparkling clean bungallow inmersed in the jungle with 1/2 restroom",
-  "mosquito_d":"Bungalows with air-thight floor to cealing screen. Otherwise you won't be able to sleep",
-  "kitchen_d":"A big ocean front living room, reading room, kitchen and dining with great fans",
-  "price_d": "N&M is a 'not for profit corporation'. We run a tight ship planned to break even EOY"
-  }
+    "title2": "& rest your mind",
+    "nmtitle": "This is Nature & Mind",
+    "tagLine_1": "Bungalows located on a pristine beachfront property with primary forest on the last unspoiled region of Costa Rica",
+    "tagLine_2": "An open minded retreat to enjoy your connection with nature with fun & fulfilling activities to disconnect from your every day and give your mind a rest.",
+    "tagLine_3": "no dogma, no gurus, no drugs, let nature be your guide",
+    "button":"Start",
+    "features":{
+      "title1":"Spend all the time in the jungle",
+      "text1":"Sit among giant trees glowing with life while you see the monkeys fly, be surprised by the most beautiful birds and butterflies, be aware to the most biodiverse place on earth",
+      "title2":"Bring you inner child",
+      "text2":"Play, float or surf in the ocean, walk on an empty beach, take mud baths on the creek or simply hit the hammock and smile",
+      "title3":"Effortless Relaxation",
+      "text3":"Activities are included and use the unique and present moment of nature with her sunlight, trees, wildlife, rain, wind, creeks, ocean and bonefires to achieve relaxation and optionally practice effortless meditation in our beach or jungle temples",
+      "title4":"Temazcal Detox",
+      "text4": "Our own version of the native american Temazcal mixed with the Scandinavian sauna the helps detoxify the body by sweating while getting you closer to earth; helps loosen up stress, anxieties and emotions.",
+      "title5":"Jungle Bungalows + Good Food",
+      "text5":"Individual rooms with bathroom inmersed in the jungle with premium quality beds and linens. Three healthy traditional meals, fruit juices, coffee and te included and served on the beach lounge"
+    },
+  "info1":"For some, there's a stage in life when the search for long lasting peace takes precendence over all kinds of substances, desires, ambitions, experiences and even mental concepts of spirituality.",
+  "info2":"Visits to N&M are individual and can last 3, 5 or 7 days. At the end each persons makes a donation according to their means and their inner voice"
 }
+
 }
 }
 

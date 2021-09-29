@@ -18,11 +18,46 @@ import {
 export default function Hero(props) {
   const router = useRouter();
 
-  //  const t = useTranslations("index.hero");
+  const t = useTranslations("index.hero");
   const handleClick = (e) => {
     e.preventDefault();
     router.push("/step1");
   };
+
+  const transferFeatures = [
+    {
+      id: 2,
+      name: t("features.title1"),
+      description: t("features.text1"),
+      icon: ScaleIcon,
+    },
+    {
+      id: 2,
+      name: t("features.title2"),
+      description: t("features.text2"),
+      icon: ScaleIcon,
+    },
+    {
+      id: 1,
+      name: t("features.title3"),
+      description: t("features.text3"),
+      icon: GlobeAltIcon,
+    },
+    {
+      id: 3,
+      name: t("features.title4"),
+      description: t("features.text4"),
+      icon: LightningBoltIcon,
+    },
+
+    {
+      id: 4,
+      name: t("features.title5"),
+      description: t("features.text5"),
+      icon: ScaleIcon,
+    },
+  ];
+
   return (
     <div className="relative">
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
@@ -31,18 +66,17 @@ export default function Hero(props) {
             <h1 className="text-center mb-5 text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
               <span className=" text-gray-800">
                 <span className="text-green-600  text-4xl sm:text-6xl">
-                  Connect with nature
+                  {t("title")}
                 </span>
                 <br />
                 <span className="text-green-600 text-4xl  sm:text-6xl mb-10">
-                  & rest your mind
+                  {t("title2")}
                 </span>
               </span>
             </h1>
 
             <p className="my-6 max-w-lg mx-auto text-center text-lg text-gray-600 sm:max-w-xl">
-              Bungalows located on a pristine beachfront property with primary
-              forest on the last unspoiled region of Costa Rica
+              {t("tagLine_1")}
             </p>
 
             <Image
@@ -55,15 +89,19 @@ export default function Hero(props) {
           </div>
 
           <div className="bg-green-500 overflow-hidden pb-4 relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-4xl">
-            <p className="mt-3 text-lg text-center text-gray-50">{subtitle1}</p>
+            <p className="mt-3 text-lg text-center text-gray-50">
+              {t("tagLine_2")}
+            </p>
           </div>
 
           <div className="relative bg-white p-5 mt-5">
             <div className="bg-white relative mt-2 lg:my-8  lg:items-center">
               <h2 className="mt-3 text-center uppercase text-2xl leading-8 font-extrabold tracking-tight text-gray-700 sm:text-4xl">
-                {title}
+                {t("nmtitle")}
               </h2>
-              <p className="text-gray-500 text-center mx-14">{subtitle11}</p>
+              <p className="text-gray-500 text-center mx-14">
+                {t("tagLine_3")}
+              </p>
               <div className="relative max-w-2xl mx-auto">
                 <dl className="mt-10 space-y-10">
                   {transferFeatures.map((item) => (
@@ -87,15 +125,11 @@ export default function Hero(props) {
 
             <div className="relative mt-10 p-7 mb-5 bg-gray-100  max-w-xl mx-auto lg:max-w-2xl">
               <p className="text-lg text-justify text-gray-500 mb-10">
-                For some, {"there's"} a stage in life when the search for long
-                lasting peace takes precendence over all kinds of substances,
-                desires, ambitions, experiences and even mental concepts of
-                spirituality.
+                {t("info1")}
               </p>
 
-              <p className=" mb-1 text-lg text-justify text-gray-500">
-                May this space and everything on it be of service to those
-                beings.
+              <p className="text-lg text-justify text-green-500 mb-1">
+                {t("info2")}
               </p>
             </div>
 
@@ -123,17 +157,18 @@ export default function Hero(props) {
             </div>
           </div>
 
-          <div className=" max-w-sm mx-auto pb-10 sm:max-w-xl sm:justify-center mt-10 border-2  border-green-500">
+          <div className="overflow-hidden max-w-sm mx-auto pb-10 sm:max-w-xl sm:justify-center mt-10 border-2  border-green-500">
             <div className="bg-green-500 p-4 text-white text-lg">
-              The Nature and Mind business layer is donation based
+              + Information
             </div>
 
             <iframe
-              className="w-full h-96"
+              style={{ height: "26rem" }}
+              className="w-full overflow-hidden"
               src="https://cdn.forms-content.sg-form.com/ad28567a-1e67-11ec-b830-c200a5ba8227"
             ></iframe>
 
-            <small className="ml-20 text-gray-600 text-center">
+            <small className="ml-10 text-gray-600 text-center">
               {"We won't flood or share your email with third parties."}
             </small>
           </div>
@@ -143,59 +178,6 @@ export default function Hero(props) {
   );
 }
 
-const title = "This is Nature & Mind";
-const subtitle =
-  "The greatest gift from nature is a moment to experience life as it really is, before its distorted by our beautiful, yet troubled, humanity";
-
-const subtitle11 = "no dogma, no gurus, no drugs, let nature be your guide";
-
-const title1 = "Let mother nature be our guide";
-
-const subtitle1 =
-  "An open minded retreat to enjoy your connection with nature with fun & fulfilling activities to disconnect from your every day and give your mind a rest.";
-
-const title2 = "Lets go back, we forgot something";
-const subtitle2 =
-  "We heard from countless cultures, teachers and from mother herself that nature is eager to welcome us back";
-
-const transferFeatures = [
-  {
-    id: 2,
-    name: "Spend all the time in the jungle",
-    description:
-      "Sit among giant trees glowing with life while you see the monkeys fly, be surprised by the most beautiful birds and butterflies, be aware to the most biodiverse place on earth",
-    icon: ScaleIcon,
-  },
-  {
-    id: 2,
-    name: "Bring you inner child",
-    description:
-      "Play, float or surf in the ocean, walk on an empty beach, take mud baths on the creek or simply hit the hammock and smile",
-    icon: ScaleIcon,
-  },
-  {
-    id: 1,
-    name: "Effortless Relaxation",
-    description:
-      "Activities are included and use the unique and present moment of nature with her sunlight, trees, wildlife, rain, wind, creeks, ocean and bonefires to achieve relaxation and optionally practice effortless meditation in our beach or jungle temples",
-    icon: GlobeAltIcon,
-  },
-  {
-    id: 3,
-    name: "Temazcal Detox",
-    description:
-      "Our own version of the native american Temazcal mixed with the Scandinavian sauna the helps detoxify the body by sweating while getting you closer to earth; helps loosen up stress, anxieties and emotions.",
-    icon: LightningBoltIcon,
-  },
-
-  {
-    id: 4,
-    name: "Jungle Bungalows + Good Food",
-    description:
-      "Individual rooms with bathroom inmersed in the jungle with premium quality beds and linens. Three healthy traditional meals, fruit juices, coffee and te included and served on the beach lounge",
-    icon: ScaleIcon,
-  },
-];
 const communicationFeatures = [
   {
     id: 1,
@@ -212,25 +194,3 @@ const communicationFeatures = [
     icon: MailIcon,
   },
 ];
-
-function Name() {
-  return (
-    <div className="p-10 pb-5">
-      <label
-        htmlFor="email"
-        className="block text-sm font-medium text-gray-500"
-      >
-        Email
-      </label>
-      <div className="mt-1">
-        <input
-          type="text"
-          name="email"
-          id="email"
-          className="shadow-sm focus:ring-green-500 focus:border-green-500 block w-full sm:text-sm border-gray-300 rounded-md"
-          placeholder="you@example.com"
-        />
-      </div>
-    </div>
-  );
-}
